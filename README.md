@@ -18,10 +18,13 @@ Extensão do Chrome para extrair e exibir informações sobre a música que est�
 ## 📸 Capturas
 
 ### Popup da Extensão
-![Popup](https://via.placeholder.com/350x200/667eea/ffffff?text=Popup+Preview)
+
+<img width="356" height="447" alt="image" src="https://github.com/user-attachments/assets/4e801a7e-fe53-4249-8cef-83992e21cc88" />
+
 
 ### Browser Source no OBS
-![OBS](https://via.placeholder.com/400x150/764ba2/ffffff?text=OBS+Preview)
+
+<img width="550" height="152" alt="image" src="https://github.com/user-attachments/assets/629b4dba-41c9-4e97-939b-8615820cf972" />
 
 ## 🚀 Instalação
 
@@ -206,8 +209,4 @@ Este projeto é open source e está disponível sob a licença MIT.
 
 ## 👨‍💻 Desenvolvido por
 
-[Seu Nome] - Desenvolvedor Full Stack
-
----
-
-**Feito com ❤️ para streamers e criadores de conteúdo**
+Lucas Correia - Desenvolvedor Full Stack
