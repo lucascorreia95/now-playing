@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 350px;
+  min-height: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.track-info {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.no-track {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.track-details {
+  text-align: center;
+}
+
+.track-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.track-artist {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 5px;
+}
+
+.track-album {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 8px;
+}
+
+.track-time {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 5px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}

@@ -1,0 +1,14 @@
+{
+  "name": "youtube-music-now-playing",
+  "version": "1.0.0",
+  "description": "Chrome extension to track what's playing on YouTube Music with OBS Studio integration",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
